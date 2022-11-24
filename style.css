@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+#bheem{
+    background-color: rgb(255 255 0) !important;
+  }
+  #a{
+    color: blue;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .background{
+    background: rgba(0, 0, 0, 0.7) url(./madara\ winter.jpg)no-repeat center center/cover;
+    
+    background-blend-mode: darken;
+    height: 89vh;
+  }
+
+
+  @media only screen and (max-width : 600px){
+
+    .background{
+        height: 65vh;
+    }
+  }
